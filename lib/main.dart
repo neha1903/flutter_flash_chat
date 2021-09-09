@@ -21,7 +21,8 @@ class MyApp extends StatelessWidget {
           bodyText2: TextStyle(color: Colors.black54),
         ),
       ),
-      initialRoute: WelcomeScreen.id, // using const and static Keyword So that we don't have to create Screen object this will take a lot of resources to create a new Object which is Not we are Asses the static variable with calling the class name followed by dot operator and the Variable name we want to access in the above case the variable name is id
+      initialRoute: WelcomeScreen
+          .id, // using const and static Keyword So that we don't have to create Screen object this will take a lot of resources to create a new Object which is Not we are Asses the static variable with calling the class name followed by dot operator and the Variable name we want to access in the above case the variable name is id
       routes: {
         WelcomeScreen.id: (context) => WelcomeScreen(),
         ChatScreen.id: (context) => ChatScreen(),
