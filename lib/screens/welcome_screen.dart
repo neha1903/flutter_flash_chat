@@ -47,6 +47,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Hero(
+                    // This is an animation Hero Animation uses only tag to identify the start and begin this is start tag and end is on Login and Registration Screen it triggers depending on the Screen we move to
                     tag: 'logo',
                     child: Container(
                       child: Image.asset('images/logo.png'),
