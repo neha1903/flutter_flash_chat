@@ -41,6 +41,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 hintTextColor: Colors.grey,
                 textColor: Colors.black,
                 borderColor: Colors.lightBlueAccent,
+                isPassword: false,
               ),
               SizedBox(
                 height: 20.0,
@@ -54,6 +55,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 hintTextColor: Colors.grey,
                 textColor: Colors.black,
                 borderColor: Colors.lightBlueAccent,
+                isPassword: true,
               ),
               SizedBox(
                 height: 40.0,

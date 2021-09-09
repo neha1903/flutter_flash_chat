@@ -6,6 +6,7 @@ class CustomTextField extends StatelessWidget {
   final Color hintTextColor;
   final Color textColor;
   final Color borderColor;
+  final bool isPassword;
 
   CustomTextField({
     required this.onChange,
@@ -13,6 +14,7 @@ class CustomTextField extends StatelessWidget {
     required this.hintTextColor,
     required this.textColor,
     required this.borderColor,
+    required this.isPassword,
   });
 
   @override
@@ -21,6 +23,9 @@ class CustomTextField extends StatelessWidget {
       onChanged: (value) {
         onChange(value);
       },
+      obscureText: isPassword,
+      enableSuggestions: !isPassword,
+      autocorrect: !isPassword,
       style: TextStyle(
         color: textColor,
       ),

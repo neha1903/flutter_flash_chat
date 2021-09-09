@@ -41,6 +41,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                 hintTextColor: Colors.grey,
                 textColor: Colors.black,
                 borderColor: Colors.blueAccent,
+                isPassword: true,
               ),
               SizedBox(
                 height: 20.0,
@@ -54,6 +55,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                 hintTextColor: Colors.grey,
                 textColor: Colors.black,
                 borderColor: Colors.blueAccent,
+                isPassword: true,
               ),
               SizedBox(
                 height: 40.0,
