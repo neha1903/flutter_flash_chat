@@ -22,6 +22,7 @@ class _LoginScreenState extends State<LoginScreen> {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Hero(
+                // This is an animation Hero Animation uses only tag to identify the start and begin this is an end Hero Tag Animation
                 tag: 'logo',
                 child: Container(
                   height: 200.0,
